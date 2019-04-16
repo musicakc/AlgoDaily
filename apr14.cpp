@@ -105,5 +105,5 @@ int main()
   ms.push(1);
   ms.push(23);
   ms.pop();
-  return 0;
+  return -1;
 }
