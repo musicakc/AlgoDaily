@@ -15,8 +15,6 @@ calculator(expr)
 
 // 4
 
-
-
 expr = "(2+(4+2)-1)-(5+8)"
 
 calculator(expr)
@@ -29,6 +27,11 @@ Assume for now that you don't need to handle multiplication or division cases.
 #include <iostream>
 
 using namespace std;
+
+void calculator(string expr)
+{
+	int len = expr.length();
+}
 
 int main()
 {
